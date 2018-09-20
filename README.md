@@ -9,3 +9,4 @@ Run the notebooks in this repository live on MyBinder — just click the button 
 Notebooks include:
 
 * **Harvest summary data from lists**
+* **Convert a Trove list into a CSV file**
