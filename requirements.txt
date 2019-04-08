@@ -6,3 +6,4 @@ wordcloud==1.5.0
 matplotlib==2.2.3
 requests==2.19.1
 tqdm==4.25.0
+Pyzotero==1.3.15
