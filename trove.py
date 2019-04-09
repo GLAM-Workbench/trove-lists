@@ -108,7 +108,7 @@ class TroveItem:
         try:
             value = self.record[field]
         except KeyError:
-            print('No such field!')
+            # print('No such field!')
             value = None
         else:
             value = self._prepare_value(value)
