@@ -4,7 +4,7 @@ attrs==19.3.0
 backcall==0.2.0
 beautifulsoup4==4.9.1
 bibtexparser==1.2.0
-bleach==3.1.5
+bleach==3.3.0
 certifi
 chardet==3.0.4
 cycler==0.10.0
