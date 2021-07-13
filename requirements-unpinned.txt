@@ -1,0 +1,17 @@
+IPython
+PIL
+altair
+beautifulsoup4
+bs4
+jupyterlab
+matplotlib
+nltk
+pandas
+pyzotero
+requests
+requests_cache
+textblob
+tqdm
+voila
+voila-material @ git+https://github.com/GLAM-Workbench/voila-material.git
+wordcloud
