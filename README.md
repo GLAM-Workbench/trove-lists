@@ -17,9 +17,7 @@ Jupyter notebooks to work with data from Trove's public lists and tags.
 ### Data files
 
 * [trove-lists-2020-09-22.csv](https://github.com/GLAM-Workbench/trove-lists/blob/master/data/trove-lists-2020-09-22.csv) (harvested 22 September 2020) – basic metadata about all public lists
-
 * [Trove public tags](https://doi.org/10.5281/zenodo.5094314) (Zenodo, zipped CSV, harvested 10 July 2021) – complete dataset of more than 8 million public tags
-
 * [trove_tag_counts_20210710.csv](https://github.com/GLAM-Workbench/trove-lists/blob/master/trove_tag_counts_20210710.csv) (harvested 10 July 2021) – counts of individual tags
 
 <!-- START RUN INFO -->
