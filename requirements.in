@@ -1,0 +1,19 @@
+pillow
+altair
+beautifulsoup4
+ipywidgets
+jupyterlab
+lxml
+nltk
+pandas
+pyzotero
+requests
+requests_cache
+textblob
+tqdm
+trove-newspaper-images
+voila
+voila-material @ git+https://github.com/GLAM-Workbench/voila-material.git
+wordcloud
+pyyaml
+python-dotenv

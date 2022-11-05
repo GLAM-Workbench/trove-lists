@@ -1,0 +1,41 @@
+{
+  "language": "eng",
+  "license": "MIT",
+  "title": "GLAM-Workbench/trove-lists",
+  "related_identifiers": [
+    {
+      "scheme": "url",
+      "identifier": "https://github.com/GLAM-Workbench/trove-lists/tree/v1.0.0",
+      "relation": "isDerivedFrom",
+      "resource_type": "software"
+    },
+    {
+      "scheme": "url",
+      "identifier": "https://glam-workbench.net/trove-lists/",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-softwaredocumentation"
+    },
+    {
+      "scheme": "url",
+      "identifier": "https://glam-workbench.net/",
+      "relation": "isPartOf",
+      "resource_type": "other"
+    }
+  ],
+  "version": "v1.0.0",
+  "upload_type": "software",
+  "keywords": [
+    "digital humanities",
+    "Jupyter",
+    "GLAM Workbench"
+  ],
+  "publication_date": "2022-11-05",
+  "creators": [
+    {
+      "name": "Sherratt, Tim",
+      "orcid": "0000-0001-7956-4498"
+    }
+  ],
+  "access_right": "open",
+  "description": "<p>Current version: <a href=\"https://github.com/GLAM-Workbench/trove-lists/releases/tag/v1.0.0\">v1.0.0</a></p> <p>Jupyter notebooks to work with data from Trove’s public lists and tags.</p> <h2 id=\"notebook-topics\">Notebook topics</h2> <h3 id=\"lists\">Lists</h3> <ul> <li><strong>Convert a Trove list into a CSV file</strong> – extracts list data from the Trove API and saves the results as CSV files (with separate files for newspaper articles and other resources); optionally save OCRd test, PDFs, and images of any listed newspaper articles.</li> <li><strong>Convert a Trove list into a CollectionBuilder exhibition</strong> – converts Trove lists into a series of files that can be uploaded to a <a href=\"https://github.com/CollectionBuilder/collectionbuilder-gh\">CollectionBuilder-GH</a> repository to create an instant exhibition.</li> <li><strong>Harvest summary data from Trove lists</strong> – extract and analyse data from all public lists in Trove</li> </ul> <h3 id=\"tags\">Tags</h3> <ul> <li><strong>Harvest public tags from Trove zones</strong> – assemble a dataset containing all public tags added to Trove</li> <li><strong>Analyse public tags added to Trove</strong> – explore ways of analysing and visualising the complete dataset of public tags added to Trove resources</li> </ul> <h3 id=\"data-files\">Data files</h3> <ul> <li><a href=\"https://github.com/GLAM-Workbench/trove-lists/blob/master/data/trove-lists-2020-09-22.csv\">trove-lists-2020-09-22.csv</a> (harvested 22 September 2020) – basic metadata about all public lists</li> <li><a href=\"https://doi.org/10.5281/zenodo.5094314\">Trove public tags</a> (Zenodo, zipped CSV, harvested 10 July 2021) – complete dataset of more than 8 million public tags</li> <li><a href=\"https://github.com/GLAM-Workbench/trove-lists/blob/master/trove_tag_counts_20210710.csv\">trove_tag_counts_20210710.csv</a> (harvested 10 July 2021) – counts of individual tags</li> </ul> <h2 id=\"cite-as\">Cite as</h2> <p>See the GLAM Workbench or <a href=\"https://doi.org/10.5281/zenodo.3521723\">Zenodo</a> for up-to-date citation details.</p> <hr /> <p>This repository is part of the <a href=\"https://glam-workbench.github.io/\">GLAM Workbench</a>.<br /> If you think this project is worthwhile, you might like <a href=\"https://github.com/sponsors/wragge?o=esb\">to sponsor me on GitHub</a>.</p>"
+}

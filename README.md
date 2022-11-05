@@ -1,5 +1,7 @@
 # Trove lists and tags
 
+Current version: [v1.0.0](https://github.com/GLAM-Workbench/trove-lists/releases/tag/v1.0.0)
+
 Jupyter notebooks to work with data from Trove's public lists and tags.
 
 ## Notebook topics
@@ -7,6 +9,7 @@ Jupyter notebooks to work with data from Trove's public lists and tags.
 ### Lists
 
 * [**Convert a Trove list into a CSV file**](Convert-a-Trove-list-into-a-CSV-file.ipynb) – extracts list data from the Trove API and saves the results as CSV files (with separate files for newspaper articles and other resources); optionally save OCRd test, PDFs, and images of any listed newspaper articles.
+* [**Convert a Trove list into a CollectionBuilder exhibition**](convert-list-to-cb-exhibition.ipynb) – converts Trove lists into a series of files that can be uploaded to a [CollectionBuilder-GH](https://github.com/CollectionBuilder/collectionbuilder-gh) repository to create an instant exhibition.
 * [**Harvest summary data from Trove lists**](Harvest-summary-data-from-lists.ipynb) – extract and analyse data from all public lists in Trove
 
 ### Tags
@@ -28,7 +31,7 @@ There are a number of different ways to use these notebooks. Binder is quickest 
 
 ### Using Binder
 
-[![Launch on Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GLAM-Workbench/trove-lists/master/?urlpath=lab/tree/index.md)
+[![Launch on Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GLAM-Workbench/trove-lists/master/?urlpath=lab/tree/index.ipynb)
 
 Click on the button above to launch the notebooks in this repository using the [Binder](https://mybinder.org/) service (it might take a little while to load). This is a free service, but note that sessions will close if you stop using the notebooks, and no data will be saved. Make sure you download any changed notebooks or harvested data that you want to save.
 
@@ -54,7 +57,7 @@ You can use Docker to run a pre-built computing environment on your own computer
 * Create a new directory for this repository and open it from the command line.
 * From the command line, run the following command:  
   ```
-  docker run -p 8888:8888 --name trove-lists -v "$PWD":/home/jovyan/work glamworkbench/trove-lists repo2docker-entrypoint jupyter lab --ip 0.0.0.0 --NotebookApp.token='' --LabApp.default_url='/lab/tree/index.md'
+  docker run -p 8888:8888 --name trove-lists -v "$PWD":/home/jovyan/work quay.io/glamworkbench/trove-lists repo2docker-entrypoint jupyter lab --ip 0.0.0.0 --NotebookApp.token='' --LabApp.default_url='/lab/tree/index.ipynb'
   ```
 * It will take a while to download and configure the Docker image. Once it's ready you'll see a message saying that Jupyter Notebook is running.
 * Point your web browser to `http://127.0.0.1:8888`
@@ -81,7 +84,7 @@ See the GLAM Workbench for more details.
 
 ## Cite as
 
-See the GLAM Workbench or [Zenodo](https://doi.org/10.5281/zenodo.3521724) for up-to-date citation details.
+See the GLAM Workbench or [Zenodo](https://doi.org/10.5281/zenodo.3521723) for up-to-date citation details.
 
 ----
 
