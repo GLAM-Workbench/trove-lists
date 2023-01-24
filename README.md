@@ -2,7 +2,7 @@
 
 Current version: [v1.0.0](https://github.com/GLAM-Workbench/trove-lists/releases/tag/v1.0.0)
 
-Jupyter notebooks to work with data from Trove's public lists and tags.
+Jupyter notebooks to work with data from Trove's public lists and tags. See the [GLAM Workbench](https://glam-workbench.net/trove-lists/) for more details.
 
 ## Notebook topics
 
@@ -16,12 +16,6 @@ Jupyter notebooks to work with data from Trove's public lists and tags.
 
 * [**Harvest public tags from Trove zones**](harvest-tags.ipynb) – assemble a dataset containing all public tags added to Trove
 * [**Analyse public tags added to Trove**](analyse_tags.ipynb) – explore ways of analysing and visualising the complete dataset of public tags added to Trove resources
-
-### Data files
-
-* [trove-lists-2020-09-22.csv](https://github.com/GLAM-Workbench/trove-lists/blob/master/data/trove-lists-2020-09-22.csv) (harvested 22 September 2020) – basic metadata about all public lists
-* [Trove public tags](https://doi.org/10.5281/zenodo.5094314) (Zenodo, zipped CSV, harvested 10 July 2021) – complete dataset of more than 8 million public tags
-* [trove_tag_counts_20210710.csv](https://github.com/GLAM-Workbench/trove-lists/blob/master/trove_tag_counts_20210710.csv) (harvested 10 July 2021) – counts of individual tags
 
 <!-- START RUN INFO -->
 
