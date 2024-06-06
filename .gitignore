@@ -18,3 +18,10 @@ data/trove-lists-2022-07-05.csv
 git_all_versions_of
 trove_tag_counts_20220706.csv
 .env
+tags_errors_test.ndjson
+tags_errors.ndjson
+data/trove-lists-2023-07-21.csv
+data/trove-lists-2024-05-29.csv
+data/trove-lists.csv
+start.txt
+trove_tag_counts_20240606.csv

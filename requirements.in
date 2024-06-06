@@ -17,3 +17,5 @@ voila-material @ git+https://github.com/GLAM-Workbench/voila-material.git
 wordcloud
 pyyaml
 python-dotenv
+pymarc
+lat_lon_parser

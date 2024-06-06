@@ -1,0 +1,474 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "datePublished": "2024-06-06",
+            "description": "Trove lists and tags are created by Trove users to organise and describe resources. The details of public lists and tags are available through the Trove API. The notebooks in this repository demonstrate how to harvest and analyse list and tag data.",
+            "hasPart": [
+                {
+                    "@id": "convert-list-to-cb-exhibition.ipynb"
+                },
+                {
+                    "@id": "harvest-tags.ipynb"
+                },
+                {
+                    "@id": "https://zenodo.org/records/11496377/files/trove_tags_20240606.zip"
+                },
+                {
+                    "@id": "Convert-a-Trove-list-into-a-CSV-file.ipynb"
+                },
+                {
+                    "@id": "analyse_tags.ipynb"
+                },
+                {
+                    "@id": "https://zenodo.org/records/11496519/files/trove_tag_counts_20240606.csv"
+                },
+                {
+                    "@id": "Harvest-summary-data-from-lists.ipynb"
+                },
+                {
+                    "@id": "https://raw.githubusercontent.com/GLAM-Workbench/trove-lists-metadata/main/trove-lists.csv"
+                }
+            ],
+            "license": {
+                "@id": "https://spdx.org/licenses/MIT"
+            },
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/trove-lists"
+            },
+            "name": "trove-lists",
+            "url": "https://github.com/GLAM-Workbench/trove-lists/",
+            "version": "v1.1.0"
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            },
+            "license": {
+                "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
+            }
+        },
+        {
+            "@id": "convert-list-to-cb-exhibition.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "category": "Lists",
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-lists/",
+            "conformsTo": {
+                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+            },
+            "description": "This notebook converts [Trove lists](https://trove.nla.gov.au/help/become-voluntrove/lists) into a series of files that can be uploaded to a [CollectionBuilder-GH](https://github.com/CollectionBuilder/collectionbuilder-gh) repository to create an instant exhibition. See the [CollectionBuilder site](https://collectionbuilder.github.io/) for more information on how CollectionBuilder works and what it can do.",
+            "encodingFormat": "application/x-ipynb+json",
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/trove-lists/convert-list-to-cb-exhibition/"
+            },
+            "name": "Convert a Trove list into a CollectionBuilder exhibition",
+            "position": 0,
+            "programmingLanguage": {
+                "@id": "https://www.python.org/downloads/release/python-31012/"
+            },
+            "url": "https://github.com/GLAM-Workbench/trove-lists/blob/None/convert-list-to-cb-exhibition.ipynb",
+            "workExample": []
+        },
+        {
+            "@id": "harvest-tags.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "category": "Tags",
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-lists/",
+            "conformsTo": {
+                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+            },
+            "description": "This notebook harvests all the public tags that users have added to records in Trove. However, tags are being added all the time, so by the time you've finished harvesting, the dataset will probably be out of date.",
+            "encodingFormat": "application/x-ipynb+json",
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/trove-lists/harvest-tags/"
+            },
+            "name": "Harvest public tags from Trove zones",
+            "position": 0,
+            "programmingLanguage": {
+                "@id": "https://www.python.org/downloads/release/python-31012/"
+            },
+            "url": "https://github.com/GLAM-Workbench/trove-lists/blob/None/harvest-tags.ipynb",
+            "workExample": []
+        },
+        {
+            "@id": "https://zenodo.org/records/11496377/files/trove_tags_20240606.zip",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 154115169,
+            "dateModified": "2024-06-06",
+            "encodingFormat": "application/zip",
+            "isPartOf": {
+                "@id": "https://zenodo.org/doi/10.5281/zenodo.5094313"
+            },
+            "name": "trove_tags_20240606.zip",
+            "sdDatePublished": "2024-06-06",
+            "url": "https://zenodo.org/records/11496377/files/trove_tags_20240606.zip"
+        },
+        {
+            "@id": "Convert-a-Trove-list-into-a-CSV-file.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "category": "Lists",
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-lists/",
+            "conformsTo": {
+                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+            },
+            "description": "This notebook converts Trove lists into CSV files (spreadsheets). Separate CSV files are created for newspaper articles and works from Trove's other zones. You can also save the OCRd text, a PDF, and an image of each newspaper article.",
+            "encodingFormat": "application/x-ipynb+json",
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/trove-lists/convert-a-trove-list-into-a-csv-file/"
+            },
+            "name": "Convert a Trove list into a CSV file",
+            "position": 0,
+            "programmingLanguage": {
+                "@id": "https://www.python.org/downloads/release/python-31012/"
+            },
+            "url": "https://github.com/GLAM-Workbench/trove-lists/blob/None/Convert-a-Trove-list-into-a-CSV-file.ipynb",
+            "workExample": []
+        },
+        {
+            "@id": "analyse_tags.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "category": "Tags",
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-lists/",
+            "conformsTo": {
+                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+            },
+            "description": "This notebook loads the complete dataset of Trove tags and explores some ways of analysing and visualising the tag data.",
+            "encodingFormat": "application/x-ipynb+json",
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/trove-lists/analyse_tags/"
+            },
+            "name": "Analyse public tags added to Trove",
+            "position": 1,
+            "programmingLanguage": {
+                "@id": "https://www.python.org/downloads/release/python-31012/"
+            },
+            "url": "https://github.com/GLAM-Workbench/trove-lists/blob/None/analyse_tags.ipynb",
+            "workExample": []
+        },
+        {
+            "@id": "https://zenodo.org/records/11496519/files/trove_tag_counts_20240606.csv",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 61660997,
+            "dateModified": "2024-06-06",
+            "encodingFormat": "text/csv",
+            "isPartOf": {
+                "@id": "https://zenodo.org/doi/10.5281/zenodo.7563922"
+            },
+            "name": "trove_tag_counts_20240606.csv",
+            "sdDatePublished": "2024-06-06",
+            "size": 2390857,
+            "url": "https://zenodo.org/records/11496519/files/trove_tag_counts_20240606.csv"
+        },
+        {
+            "@id": "Harvest-summary-data-from-lists.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "category": "Lists",
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-lists/",
+            "conformsTo": {
+                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+            },
+            "description": "Use the Trove API to harvest data about all public lists, then extract some summary data and explore a few different techniques to analyse the complete dataset.",
+            "encodingFormat": "application/x-ipynb+json",
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/trove-lists/harvest-summary-data-from-lists/"
+            },
+            "name": "Harvest summary data from Trove lists",
+            "position": 2,
+            "programmingLanguage": {
+                "@id": "https://www.python.org/downloads/release/python-31012/"
+            },
+            "url": "https://github.com/GLAM-Workbench/trove-lists/blob/None/Harvest-summary-data-from-lists.ipynb",
+            "workExample": []
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/GLAM-Workbench/trove-lists-metadata/main/trove-lists.csv",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 8118218,
+            "dateModified": "2024-06-06",
+            "encodingFormat": "text/csv",
+            "isPartOf": {
+                "@id": "https://github.com/GLAM-Workbench/trove-lists-metadata/"
+            },
+            "name": "trove-lists.csv",
+            "sdDatePublished": "2024-06-06",
+            "size": 111960,
+            "url": "https://raw.githubusercontent.com/GLAM-Workbench/trove-lists-metadata/main/trove-lists.csv"
+        },
+        {
+            "@id": "https://glam-workbench.net/trove-lists",
+            "@type": "CreativeWork",
+            "isPartOf": {
+                "@id": "https://glam-workbench.net/"
+            },
+            "name": "Trove lists and tags",
+            "url": "https://glam-workbench.net/trove-lists"
+        },
+        {
+            "@id": "https://glam-workbench.net/",
+            "@type": "CreativeWork",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "description": "A collection of tools, tutorials, examples, and hacks to help researchers work with data from galleries, libraries, archives, and museums (the GLAM sector).",
+            "name": "GLAM Workbench",
+            "url": "https://glam-workbench.net/"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-7956-4498",
+            "@type": "Person",
+            "mainEntityOfPage": "https://timsherratt.au",
+            "name": "Sherratt, Tim",
+            "orcid": "https://orcid.org/0000-0001-7956-4498"
+        },
+        {
+            "@id": "https://spdx.org/licenses/MIT",
+            "@type": "CreativeWork",
+            "name": "MIT License",
+            "url": "https://spdx.org/licenses/MIT.html"
+        },
+        {
+            "@id": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "@type": "CreativeWork",
+            "name": "CC0 Public Domain Dedication",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+            "@id": "http://rightsstatements.org/vocab/NKC/1.0/",
+            "@type": "CreativeWork",
+            "description": "The organization that has made the Item available reasonably believes that the Item is not restricted by copyright or related rights, but a conclusive determination could not be made.",
+            "name": "No Known Copyright",
+            "url": "http://rightsstatements.org/vocab/NKC/1.0/"
+        },
+        {
+            "@id": "http://rightsstatements.org/vocab/CNE/1.0/",
+            "@type": "CreativeWork",
+            "description": "The copyright and related rights status of this Item has not been evaluated.",
+            "name": "Copyright Not Evaluated",
+            "url": "http://rightsstatements.org/vocab/CNE/1.0/"
+        },
+        {
+            "@id": "https://www.python.org/downloads/release/python-31012/",
+            "@type": [
+                "ComputerLanguage",
+                "SoftwareApplication"
+            ],
+            "name": "Python 3.10.12",
+            "url": "https://www.python.org/downloads/release/python-31012/",
+            "version": "3.10.12"
+        },
+        {
+            "@id": "https://glam-workbench.net/trove-lists/convert-list-to-cb-exhibition/",
+            "@type": "CreativeWork",
+            "isPartOf": {
+                "@id": "https://glam-workbench.net"
+            },
+            "name": "Convert a Trove list into a CollectionBuilder exhibition",
+            "url": "https://glam-workbench.net/trove-lists/convert-list-to-cb-exhibition/"
+        },
+        {
+            "@id": "https://glam-workbench.net/trove-lists/harvest-tags/",
+            "@type": "CreativeWork",
+            "isPartOf": {
+                "@id": "https://glam-workbench.net"
+            },
+            "name": "Harvest public tags from Trove zones",
+            "url": "https://glam-workbench.net/trove-lists/harvest-tags/"
+        },
+        {
+            "@id": "https://glam-workbench.net/trove-lists/trove-public-tags/",
+            "@type": "CreativeWork",
+            "isPartOf": {
+                "@id": "https://glam-workbench.net"
+            },
+            "name": "Trove public tags",
+            "url": "https://glam-workbench.net/trove-lists/trove-public-tags/"
+        },
+        {
+            "@id": "https://zenodo.org/doi/10.5281/zenodo.5094313",
+            "@type": "Dataset",
+            "description": "This dataset contains details of all public tags added to  resources in Trove since August 2008.",
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/trove-lists/trove-public-tags/"
+            },
+            "name": "Trove public tags",
+            "url": "https://zenodo.org/doi/10.5281/zenodo.5094313",
+            "workExample": []
+        },
+        {
+            "@id": "#harvest-tags_run_0",
+            "@type": "CreateAction",
+            "actionStatus": {
+                "@id": "http://schema.org/CompletedActionStatus"
+            },
+            "endDate": "2024-06-06",
+            "instrument": {
+                "@id": "harvest-tags.ipynb"
+            },
+            "name": "Run of notebook: harvest-tags.ipynb",
+            "result": [
+                {
+                    "@id": "https://zenodo.org/records/11496377/files/trove_tags_20240606.zip"
+                }
+            ]
+        },
+        {
+            "@id": "https://glam-workbench.net/trove-lists/convert-a-trove-list-into-a-csv-file/",
+            "@type": "CreativeWork",
+            "isPartOf": {
+                "@id": "https://glam-workbench.net"
+            },
+            "name": "Convert a Trove list into a CSV file",
+            "url": "https://glam-workbench.net/trove-lists/convert-a-trove-list-into-a-csv-file/"
+        },
+        {
+            "@id": "https://glam-workbench.net/trove-lists/analyse_tags/",
+            "@type": "CreativeWork",
+            "isPartOf": {
+                "@id": "https://glam-workbench.net"
+            },
+            "name": "Analyse public tags added to Trove",
+            "url": "https://glam-workbench.net/trove-lists/analyse_tags/"
+        },
+        {
+            "@id": "https://glam-workbench.net/trove-lists/trove-tag-counts/",
+            "@type": "CreativeWork",
+            "isPartOf": {
+                "@id": "https://glam-workbench.net"
+            },
+            "name": "Trove tag counts",
+            "url": "https://glam-workbench.net/trove-lists/trove-tag-counts/"
+        },
+        {
+            "@id": "https://zenodo.org/doi/10.5281/zenodo.7563922",
+            "@type": "Dataset",
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/trove-lists/trove-tag-counts/"
+            },
+            "name": "Trove tag counts",
+            "url": "https://zenodo.org/doi/10.5281/zenodo.7563922",
+            "workExample": []
+        },
+        {
+            "@id": "#analyse_tags_run_0",
+            "@type": "CreateAction",
+            "actionStatus": {
+                "@id": "http://schema.org/CompletedActionStatus"
+            },
+            "endDate": "2024-06-06",
+            "instrument": {
+                "@id": "analyse_tags.ipynb"
+            },
+            "name": "Run of notebook: analyse_tags.ipynb",
+            "result": [
+                {
+                    "@id": "https://zenodo.org/records/11496519/files/trove_tag_counts_20240606.csv"
+                }
+            ]
+        },
+        {
+            "@id": "https://glam-workbench.net/trove-lists/harvest-summary-data-from-lists/",
+            "@type": "CreativeWork",
+            "isPartOf": {
+                "@id": "https://glam-workbench.net"
+            },
+            "name": "Harvest summary data from Trove lists",
+            "url": "https://glam-workbench.net/trove-lists/harvest-summary-data-from-lists/"
+        },
+        {
+            "@id": "https://github.com/GLAM-Workbench/trove-lists-metadata/",
+            "@type": "Dataset",
+            "name": "trove-lists-metadata",
+            "url": "https://github.com/GLAM-Workbench/trove-lists-metadata/",
+            "workExample": []
+        },
+        {
+            "@id": "#Harvest-summary-data-from-lists_run_0",
+            "@type": "CreateAction",
+            "actionStatus": {
+                "@id": "http://schema.org/CompletedActionStatus"
+            },
+            "endDate": "2024-06-06",
+            "instrument": {
+                "@id": "Harvest-summary-data-from-lists.ipynb"
+            },
+            "name": "Run of notebook: Harvest-summary-data-from-lists.ipynb",
+            "result": [
+                {
+                    "@id": "https://raw.githubusercontent.com/GLAM-Workbench/trove-lists-metadata/main/trove-lists.csv"
+                }
+            ]
+        },
+        {
+            "@id": "#create_version_v1_1_0",
+            "@type": "UpdateAction",
+            "actionStatus": {
+                "@id": "http://schema.org/CompletedActionStatus"
+            },
+            "endDate": "2024-06-06",
+            "name": "Create version v1.1.0"
+        }
+    ]
+}

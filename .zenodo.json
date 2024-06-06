@@ -5,7 +5,7 @@
   "related_identifiers": [
     {
       "scheme": "url",
-      "identifier": "https://github.com/GLAM-Workbench/trove-lists/tree/v1.0.0",
+      "identifier": "https://github.com/GLAM-Workbench/trove-lists/tree/v1.1.0",
       "relation": "isDerivedFrom",
       "resource_type": "software"
     },
@@ -22,14 +22,14 @@
       "resource_type": "other"
     }
   ],
-  "version": "v1.0.0",
+  "version": "v1.1.0",
   "upload_type": "software",
   "keywords": [
     "digital humanities",
     "Jupyter",
     "GLAM Workbench"
   ],
-  "publication_date": "2023-01-25",
+  "publication_date": "2024-06-06",
   "creators": [
     {
       "name": "Sherratt, Tim",
@@ -37,5 +37,5 @@
     }
   ],
   "access_right": "open",
-  "description": "<p>Current version: <a href=\"https://github.com/GLAM-Workbench/trove-lists/releases/tag/v1.0.0\">v1.0.0</a></p> <p>Jupyter notebooks to work with data from Trove’s public lists and tags. See the <a href=\"https://glam-workbench.net/trove-lists/\">GLAM Workbench</a> for more details.</p> <h2 id=\"notebook-topics\">Notebook topics</h2> <h3 id=\"lists\">Lists</h3> <ul> <li><strong>Convert a Trove list into a CSV file</strong> – extracts list data from the Trove API and saves the results as CSV files (with separate files for newspaper articles and other resources); optionally save OCRd test, PDFs, and images of any listed newspaper articles.</li> <li><strong>Convert a Trove list into a CollectionBuilder exhibition</strong> – converts Trove lists into a series of files that can be uploaded to a <a href=\"https://github.com/CollectionBuilder/collectionbuilder-gh\">CollectionBuilder-GH</a> repository to create an instant exhibition.</li> <li><strong>Harvest summary data from Trove lists</strong> – extract and analyse data from all public lists in Trove</li> </ul> <h3 id=\"tags\">Tags</h3> <ul> <li><strong>Harvest public tags from Trove zones</strong> – assemble a dataset containing all public tags added to Trove</li> <li><strong>Analyse public tags added to Trove</strong> – explore ways of analysing and visualising the complete dataset of public tags added to Trove resources</li> </ul> <h2 id=\"cite-as\">Cite as</h2> <p>See the GLAM Workbench or <a href=\"https://doi.org/10.5281/zenodo.3521723\">Zenodo</a> for up-to-date citation details.</p> <hr /> <p>This repository is part of the <a href=\"https://glam-workbench.github.io/\">GLAM Workbench</a>.<br /> If you think this project is worthwhile, you might like <a href=\"https://github.com/sponsors/wragge?o=esb\">to sponsor me on GitHub</a>.</p>"
+  "description": "<p>Trove lists and tags are created by Trove users to organise and describe resources. The details of public lists and tags are available through the Trove API. The notebooks in this repository demonstrate how to harvest and analyse list and tag data.</p> <p>For more information and documentation see the <a href=\"https://glam-workbench.net/trove-lists\">Trove lists and tags</a> section of the <a href=\"https://glam-workbench.net\">GLAM Workbench</a>.</p> <h2 id=\"notebooks\">Notebooks</h2> <ul> <li>Convert a Trove list into a CollectionBuilder exhibition</li> <li>Harvest public tags from Trove zones</li> <li>Convert a Trove list into a CSV file</li> <li>Analyse public tags added to Trove</li> <li>Harvest summary data from Trove lists</li> </ul> <h2 id=\"associated-datasets\">Associated datasets</h2> <ul> <li><a href=\"https://github.com/GLAM-Workbench/trove-lists-metadata/\">trove-lists-metadata</a></li> <li><a href=\"https://zenodo.org/doi/10.5281/zenodo.5094313\">Trove public tags</a></li> <li><a href=\"https://zenodo.org/doi/10.5281/zenodo.7563922\">Trove tag counts</a></li> </ul> <hr /> <p>Created by <a href=\"https://timsherratt.au\">Tim Sherratt</a> for the <a href=\"https://glam-workbench.net\">GLAM Workbench</a></p>"
 }
