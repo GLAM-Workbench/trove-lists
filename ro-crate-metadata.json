@@ -61,201 +61,6 @@
             }
         },
         {
-            "@id": "convert-list-to-cb-exhibition.ipynb",
-            "@type": [
-                "File",
-                "SoftwareSourceCode"
-            ],
-            "author": [
-                {
-                    "@id": "https://orcid.org/0000-0001-7956-4498"
-                }
-            ],
-            "category": "Lists",
-            "codeRepository": "https://github.com/GLAM-Workbench/trove-lists/",
-            "conformsTo": {
-                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
-            },
-            "description": "This notebook converts [Trove lists](https://trove.nla.gov.au/help/become-voluntrove/lists) into a series of files that can be uploaded to a [CollectionBuilder-GH](https://github.com/CollectionBuilder/collectionbuilder-gh) repository to create an instant exhibition. See the [CollectionBuilder site](https://collectionbuilder.github.io/) for more information on how CollectionBuilder works and what it can do.",
-            "encodingFormat": "application/x-ipynb+json",
-            "mainEntityOfPage": {
-                "@id": "https://glam-workbench.net/trove-lists/convert-list-to-cb-exhibition/"
-            },
-            "name": "Convert a Trove list into a CollectionBuilder exhibition",
-            "position": 0,
-            "programmingLanguage": {
-                "@id": "https://www.python.org/downloads/release/python-31012/"
-            },
-            "url": "https://github.com/GLAM-Workbench/trove-lists/blob/None/convert-list-to-cb-exhibition.ipynb",
-            "workExample": []
-        },
-        {
-            "@id": "harvest-tags.ipynb",
-            "@type": [
-                "File",
-                "SoftwareSourceCode"
-            ],
-            "author": [
-                {
-                    "@id": "https://orcid.org/0000-0001-7956-4498"
-                }
-            ],
-            "category": "Tags",
-            "codeRepository": "https://github.com/GLAM-Workbench/trove-lists/",
-            "conformsTo": {
-                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
-            },
-            "description": "This notebook harvests all the public tags that users have added to records in Trove. However, tags are being added all the time, so by the time you've finished harvesting, the dataset will probably be out of date.",
-            "encodingFormat": "application/x-ipynb+json",
-            "mainEntityOfPage": {
-                "@id": "https://glam-workbench.net/trove-lists/harvest-tags/"
-            },
-            "name": "Harvest public tags from Trove zones",
-            "position": 0,
-            "programmingLanguage": {
-                "@id": "https://www.python.org/downloads/release/python-31012/"
-            },
-            "url": "https://github.com/GLAM-Workbench/trove-lists/blob/None/harvest-tags.ipynb",
-            "workExample": []
-        },
-        {
-            "@id": "https://zenodo.org/records/11496377/files/trove_tags_20240606.zip",
-            "@type": [
-                "File",
-                "Dataset"
-            ],
-            "contentSize": 154115169,
-            "dateModified": "2024-06-06",
-            "encodingFormat": "application/zip",
-            "isPartOf": {
-                "@id": "https://zenodo.org/doi/10.5281/zenodo.5094313"
-            },
-            "name": "trove_tags_20240606.zip",
-            "sdDatePublished": "2024-06-06",
-            "url": "https://zenodo.org/records/11496377/files/trove_tags_20240606.zip"
-        },
-        {
-            "@id": "Convert-a-Trove-list-into-a-CSV-file.ipynb",
-            "@type": [
-                "File",
-                "SoftwareSourceCode"
-            ],
-            "author": [
-                {
-                    "@id": "https://orcid.org/0000-0001-7956-4498"
-                }
-            ],
-            "category": "Lists",
-            "codeRepository": "https://github.com/GLAM-Workbench/trove-lists/",
-            "conformsTo": {
-                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
-            },
-            "description": "This notebook converts Trove lists into CSV files (spreadsheets). Separate CSV files are created for newspaper articles and works from Trove's other zones. You can also save the OCRd text, a PDF, and an image of each newspaper article.",
-            "encodingFormat": "application/x-ipynb+json",
-            "mainEntityOfPage": {
-                "@id": "https://glam-workbench.net/trove-lists/convert-a-trove-list-into-a-csv-file/"
-            },
-            "name": "Convert a Trove list into a CSV file",
-            "position": 0,
-            "programmingLanguage": {
-                "@id": "https://www.python.org/downloads/release/python-31012/"
-            },
-            "url": "https://github.com/GLAM-Workbench/trove-lists/blob/None/Convert-a-Trove-list-into-a-CSV-file.ipynb",
-            "workExample": []
-        },
-        {
-            "@id": "analyse_tags.ipynb",
-            "@type": [
-                "File",
-                "SoftwareSourceCode"
-            ],
-            "author": [
-                {
-                    "@id": "https://orcid.org/0000-0001-7956-4498"
-                }
-            ],
-            "category": "Tags",
-            "codeRepository": "https://github.com/GLAM-Workbench/trove-lists/",
-            "conformsTo": {
-                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
-            },
-            "description": "This notebook loads the complete dataset of Trove tags and explores some ways of analysing and visualising the tag data.",
-            "encodingFormat": "application/x-ipynb+json",
-            "mainEntityOfPage": {
-                "@id": "https://glam-workbench.net/trove-lists/analyse_tags/"
-            },
-            "name": "Analyse public tags added to Trove",
-            "position": 1,
-            "programmingLanguage": {
-                "@id": "https://www.python.org/downloads/release/python-31012/"
-            },
-            "url": "https://github.com/GLAM-Workbench/trove-lists/blob/None/analyse_tags.ipynb",
-            "workExample": []
-        },
-        {
-            "@id": "https://zenodo.org/records/11496519/files/trove_tag_counts_20240606.csv",
-            "@type": [
-                "File",
-                "Dataset"
-            ],
-            "contentSize": 61660997,
-            "dateModified": "2024-06-06",
-            "encodingFormat": "text/csv",
-            "isPartOf": {
-                "@id": "https://zenodo.org/doi/10.5281/zenodo.7563922"
-            },
-            "name": "trove_tag_counts_20240606.csv",
-            "sdDatePublished": "2024-06-06",
-            "size": 2390857,
-            "url": "https://zenodo.org/records/11496519/files/trove_tag_counts_20240606.csv"
-        },
-        {
-            "@id": "Harvest-summary-data-from-lists.ipynb",
-            "@type": [
-                "File",
-                "SoftwareSourceCode"
-            ],
-            "author": [
-                {
-                    "@id": "https://orcid.org/0000-0001-7956-4498"
-                }
-            ],
-            "category": "Lists",
-            "codeRepository": "https://github.com/GLAM-Workbench/trove-lists/",
-            "conformsTo": {
-                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
-            },
-            "description": "Use the Trove API to harvest data about all public lists, then extract some summary data and explore a few different techniques to analyse the complete dataset.",
-            "encodingFormat": "application/x-ipynb+json",
-            "mainEntityOfPage": {
-                "@id": "https://glam-workbench.net/trove-lists/harvest-summary-data-from-lists/"
-            },
-            "name": "Harvest summary data from Trove lists",
-            "position": 2,
-            "programmingLanguage": {
-                "@id": "https://www.python.org/downloads/release/python-31012/"
-            },
-            "url": "https://github.com/GLAM-Workbench/trove-lists/blob/None/Harvest-summary-data-from-lists.ipynb",
-            "workExample": []
-        },
-        {
-            "@id": "https://raw.githubusercontent.com/GLAM-Workbench/trove-lists-metadata/main/trove-lists.csv",
-            "@type": [
-                "File",
-                "Dataset"
-            ],
-            "contentSize": 8118218,
-            "dateModified": "2024-06-06",
-            "encodingFormat": "text/csv",
-            "isPartOf": {
-                "@id": "https://github.com/GLAM-Workbench/trove-lists-metadata/"
-            },
-            "name": "trove-lists.csv",
-            "sdDatePublished": "2024-06-06",
-            "size": 111960,
-            "url": "https://raw.githubusercontent.com/GLAM-Workbench/trove-lists-metadata/main/trove-lists.csv"
-        },
-        {
             "@id": "https://glam-workbench.net/trove-lists",
             "@type": "CreativeWork",
             "isPartOf": {
@@ -329,6 +134,35 @@
             "url": "https://glam-workbench.net/trove-lists/convert-list-to-cb-exhibition/"
         },
         {
+            "@id": "convert-list-to-cb-exhibition.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "category": "Lists",
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-lists/",
+            "conformsTo": {
+                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+            },
+            "description": "This notebook converts [Trove lists](https://trove.nla.gov.au/help/become-voluntrove/lists) into a series of files that can be uploaded to a [CollectionBuilder-GH](https://github.com/CollectionBuilder/collectionbuilder-gh) repository to create an instant exhibition. See the [CollectionBuilder site](https://collectionbuilder.github.io/) for more information on how CollectionBuilder works and what it can do.",
+            "encodingFormat": "application/x-ipynb+json",
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/trove-lists/convert-list-to-cb-exhibition/"
+            },
+            "name": "Convert a Trove list into a CollectionBuilder exhibition",
+            "position": 0,
+            "programmingLanguage": {
+                "@id": "https://www.python.org/downloads/release/python-31012/"
+            },
+            "url": "https://github.com/GLAM-Workbench/trove-lists/blob/None/convert-list-to-cb-exhibition.ipynb",
+            "workExample": []
+        },
+        {
             "@id": "https://glam-workbench.net/trove-lists/harvest-tags/",
             "@type": "CreativeWork",
             "isPartOf": {
@@ -336,6 +170,35 @@
             },
             "name": "Harvest public tags from Trove zones",
             "url": "https://glam-workbench.net/trove-lists/harvest-tags/"
+        },
+        {
+            "@id": "harvest-tags.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "category": "Tags",
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-lists/",
+            "conformsTo": {
+                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+            },
+            "description": "This notebook harvests all the public tags that users have added to records in Trove. However, tags are being added all the time, so by the time you've finished harvesting, the dataset will probably be out of date.",
+            "encodingFormat": "application/x-ipynb+json",
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/trove-lists/harvest-tags/"
+            },
+            "name": "Harvest public tags from Trove zones",
+            "position": 0,
+            "programmingLanguage": {
+                "@id": "https://www.python.org/downloads/release/python-31012/"
+            },
+            "url": "https://github.com/GLAM-Workbench/trove-lists/blob/None/harvest-tags.ipynb",
+            "workExample": []
         },
         {
             "@id": "https://glam-workbench.net/trove-lists/trove-public-tags/",
@@ -356,6 +219,22 @@
             "name": "Trove public tags",
             "url": "https://zenodo.org/doi/10.5281/zenodo.5094313",
             "workExample": []
+        },
+        {
+            "@id": "https://zenodo.org/records/11496377/files/trove_tags_20240606.zip",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 154115169,
+            "dateModified": "2024-06-06",
+            "encodingFormat": "application/zip",
+            "isPartOf": {
+                "@id": "https://zenodo.org/doi/10.5281/zenodo.5094313"
+            },
+            "name": "trove_tags_20240606.zip",
+            "sdDatePublished": "2024-06-08",
+            "url": "https://zenodo.org/records/11496377/files/trove_tags_20240606.zip"
         },
         {
             "@id": "#harvest-tags_run_0",
@@ -384,6 +263,35 @@
             "url": "https://glam-workbench.net/trove-lists/convert-a-trove-list-into-a-csv-file/"
         },
         {
+            "@id": "Convert-a-Trove-list-into-a-CSV-file.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "category": "Lists",
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-lists/",
+            "conformsTo": {
+                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+            },
+            "description": "This notebook converts Trove lists into CSV files (spreadsheets). Separate CSV files are created for newspaper articles and works from Trove's other zones. You can also save the OCRd text, a PDF, and an image of each newspaper article.",
+            "encodingFormat": "application/x-ipynb+json",
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/trove-lists/convert-a-trove-list-into-a-csv-file/"
+            },
+            "name": "Convert a Trove list into a CSV file",
+            "position": 0,
+            "programmingLanguage": {
+                "@id": "https://www.python.org/downloads/release/python-31012/"
+            },
+            "url": "https://github.com/GLAM-Workbench/trove-lists/blob/None/Convert-a-Trove-list-into-a-CSV-file.ipynb",
+            "workExample": []
+        },
+        {
             "@id": "https://glam-workbench.net/trove-lists/analyse_tags/",
             "@type": "CreativeWork",
             "isPartOf": {
@@ -391,6 +299,35 @@
             },
             "name": "Analyse public tags added to Trove",
             "url": "https://glam-workbench.net/trove-lists/analyse_tags/"
+        },
+        {
+            "@id": "analyse_tags.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "category": "Tags",
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-lists/",
+            "conformsTo": {
+                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+            },
+            "description": "This notebook loads the complete dataset of Trove tags and explores some ways of analysing and visualising the tag data.",
+            "encodingFormat": "application/x-ipynb+json",
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/trove-lists/analyse_tags/"
+            },
+            "name": "Analyse public tags added to Trove",
+            "position": 1,
+            "programmingLanguage": {
+                "@id": "https://www.python.org/downloads/release/python-31012/"
+            },
+            "url": "https://github.com/GLAM-Workbench/trove-lists/blob/None/analyse_tags.ipynb",
+            "workExample": []
         },
         {
             "@id": "https://glam-workbench.net/trove-lists/trove-tag-counts/",
@@ -410,6 +347,23 @@
             "name": "Trove tag counts",
             "url": "https://zenodo.org/doi/10.5281/zenodo.7563922",
             "workExample": []
+        },
+        {
+            "@id": "https://zenodo.org/records/11496519/files/trove_tag_counts_20240606.csv",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 61660997,
+            "dateModified": "2024-06-06",
+            "encodingFormat": "text/csv",
+            "isPartOf": {
+                "@id": "https://zenodo.org/doi/10.5281/zenodo.7563922"
+            },
+            "name": "trove_tag_counts_20240606.csv",
+            "sdDatePublished": "2024-06-08",
+            "size": 2390857,
+            "url": "https://zenodo.org/records/11496519/files/trove_tag_counts_20240606.csv"
         },
         {
             "@id": "#analyse_tags_run_0",
@@ -438,11 +392,69 @@
             "url": "https://glam-workbench.net/trove-lists/harvest-summary-data-from-lists/"
         },
         {
+            "@id": "Harvest-summary-data-from-lists.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "category": "Lists",
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-lists/",
+            "conformsTo": {
+                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+            },
+            "description": "Use the Trove API to harvest data about all public lists, then extract some summary data and explore a few different techniques to analyse the complete dataset.",
+            "encodingFormat": "application/x-ipynb+json",
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/trove-lists/harvest-summary-data-from-lists/"
+            },
+            "name": "Harvest summary data from Trove lists",
+            "position": 2,
+            "programmingLanguage": {
+                "@id": "https://www.python.org/downloads/release/python-31012/"
+            },
+            "url": "https://github.com/GLAM-Workbench/trove-lists/blob/None/Harvest-summary-data-from-lists.ipynb",
+            "workExample": []
+        },
+        {
+            "@id": "https://glam-workbench.net/trove-lists/trove-lists-metadata/",
+            "@type": "CreativeWork",
+            "isPartOf": {
+                "@id": "https://glam-workbench.net"
+            },
+            "name": "Trove lists metadata",
+            "url": "https://glam-workbench.net/trove-lists/trove-lists-metadata/"
+        },
+        {
             "@id": "https://github.com/GLAM-Workbench/trove-lists-metadata/",
             "@type": "Dataset",
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/trove-lists/trove-lists-metadata/"
+            },
             "name": "trove-lists-metadata",
             "url": "https://github.com/GLAM-Workbench/trove-lists-metadata/",
             "workExample": []
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/GLAM-Workbench/trove-lists-metadata/main/trove-lists.csv",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 8118218,
+            "dateModified": "2024-06-06",
+            "encodingFormat": "text/csv",
+            "isPartOf": {
+                "@id": "https://github.com/GLAM-Workbench/trove-lists-metadata/"
+            },
+            "name": "trove-lists.csv",
+            "sdDatePublished": "2024-06-08",
+            "size": 111960,
+            "url": "https://raw.githubusercontent.com/GLAM-Workbench/trove-lists-metadata/main/trove-lists.csv"
         },
         {
             "@id": "#Harvest-summary-data-from-lists_run_0",
